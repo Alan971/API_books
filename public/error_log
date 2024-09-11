@@ -1,0 +1,2 @@
+[12-Sep-2024 05:45:23 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/books/config/routes/framework.yaml
+[12-Sep-2024 05:45:23 Australia/Brisbane] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://books.test/"" at RouterListener.php line 127
