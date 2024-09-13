@@ -14,6 +14,7 @@ use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use Symfony\Component\Security\Http\Attribute\IsGranted;
 
 class AuthorController extends AbstractController
 {
@@ -75,6 +76,7 @@ class AuthorController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/authors', name: 'addauthor', methods: ['POST'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function addAuthor(
                         AuthorRepository $authorRepository, 
                         EntityManagerInterface $entityManager, 
@@ -123,6 +125,7 @@ class AuthorController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/authors/{id}', name: 'updateauthor', methods: ['PUT'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function updateAuthor(
                 SerializerInterface $serialiser, 
                 Request $request, 
@@ -164,6 +167,7 @@ class AuthorController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/authors/{id}', name: 'deleteauthor', methods: ['DELETE'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function deleteAuthor(AuthorRepository $authorRepository, int $id, EntityManagerInterface $entityManager): JsonResponse
     {
         $author = $authorRepository->find($id);

@@ -16,6 +16,8 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use Symfony\Component\Security\Http\Attribute\IsGranted;
+
 
 class BookController extends AbstractController
 
@@ -73,6 +75,7 @@ class BookController extends AbstractController
      * @return JsonResponse 
      */
     #[Route('/api/books/{id}', name: 'deletebook', methods: ['DELETE'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function deleteBook(BookRepository $bookRepository, int $id, EntityManagerInterface $entityManager): JsonResponse
     {
         $book = $bookRepository->find($id);
@@ -110,6 +113,7 @@ class BookController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/books', name: 'createbook', methods: ['POST'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function createBook(
         SerializerInterface $serialiser, 
         Request $request, 
@@ -164,6 +168,7 @@ class BookController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/books/{id}', name: 'updatebook', methods: ['PUT'])]
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un livre')]
     public function updateBook(
         SerializerInterface $serialiser, 
         Request $request, 
