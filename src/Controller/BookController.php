@@ -15,10 +15,18 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class BookController extends AbstractController
 
 {
+    /**
+     * Cette méthode permet de récupérer l'ensemble des livres. 
+     *
+     * @param BookRepository $bookRepository
+     * @param SerializerInterface $serializer
+     * @return JsonResponse
+     */
     #[Route('/api/books', name: 'book', methods: ['GET'])]
     public function getAllBooks(BookRepository $bookRepository, SerializerInterface $serialiser): JsonResponse
     {
@@ -32,6 +40,13 @@ class BookController extends AbstractController
             true
         );
     }
+    /**
+     * Cette méthode permet de récupérer un livre en particulier en fonction de son id. 
+     *
+     * @param Book $book
+     * @param SerializerInterface $serializer
+     * @return JsonResponse
+     */
     #[Route('/api/books/{id}', name: 'detailbook', methods: ['GET'])]
     public function getDetailBooks(BookRepository $bookRepository, SerializerInterface $serialiser, int $id): JsonResponse
     {
@@ -50,6 +65,13 @@ class BookController extends AbstractController
             Response::HTTP_NOT_FOUND,
         );
     }
+    /**
+     * Cette méthode permet de supprimer un livre par rapport à son id. 
+     *
+     * @param Book $book
+     * @param EntityManagerInterface $em
+     * @return JsonResponse 
+     */
     #[Route('/api/books/{id}', name: 'deletebook', methods: ['DELETE'])]
     public function deleteBook(BookRepository $bookRepository, int $id, EntityManagerInterface $entityManager): JsonResponse
     {
@@ -67,16 +89,44 @@ class BookController extends AbstractController
             Response::HTTP_NOT_FOUND,
         );
     }
+        /**
+     * Cette méthode permet d'insérer un nouveau livre. 
+     * Exemple de données : 
+     * {
+     *     "title": "Le Seigneur des Anneaux",
+     *     "coverText": "C'est l'histoire d'un anneau unique", 
+     *     "idAuthor": 5
+     * }
+     * 
+     * Le paramètre idAuthor est géré "à la main", pour créer l'association
+     * entre un livre et un auteur. 
+     * S'il ne correspond pas à un auteur valide, alors le livre sera considéré comme sans auteur. 
+     *
+     * @param Request $request
+     * @param SerializerInterface $serializer
+     * @param EntityManagerInterface $em
+     * @param UrlGeneratorInterface $urlGenerator
+     * @param AuthorRepository $authorRepository
+     * @return JsonResponse
+     */
     #[Route('/api/books', name: 'createbook', methods: ['POST'])]
     public function createBook(
         SerializerInterface $serialiser, 
         Request $request, 
         EntityManagerInterface $entityManager,
         UrlGeneratorInterface $urlGenerator,
-        AuthorRepository $authorRepository
+        AuthorRepository $authorRepository,
+        ValidatorInterface $validator
         ): JsonResponse
     {
         $book = $serialiser->deserialize($request->getContent(), Book::class, 'json');
+
+        //on vérifie les erreurs
+        $errors = $validator->validate($book);
+        if($errors->count() > 0) {
+            return new JsonResponse($serialiser->serialize($errors, 'json'), Response::HTTP_BAD_REQUEST, [], true);
+        }
+
         $arrayBook = $request->toArray();
         $idAuthor = $arrayBook['idAuthor'] ?? -1;
         $book->setAuthor($authorRepository->find($idAuthor));
@@ -96,15 +146,38 @@ class BookController extends AbstractController
             true
         );
     }
+    /**
+     * Cette méthode permet de mettre à jour un livre en fonction de son id. 
+     * 
+     * Exemple de données : 
+     * {
+     *     "title": "Le Seigneur des Anneaux",
+     *     "coverText": "C'est l'histoire d'un anneau unique", 
+     *     "idAuthor": 5
+     * }
+     *
+     * @param Request $request
+     * @param SerializerInterface $serializer
+     * @param Book $currentBook
+     * @param EntityManagerInterface $em
+     * @param AuthorRepository $authorRepository
+     * @return JsonResponse
+     */
     #[Route('/api/books/{id}', name: 'updatebook', methods: ['PUT'])]
     public function updateBook(
         SerializerInterface $serialiser, 
         Request $request, 
         EntityManagerInterface $entityManager,
         Book $currentBook,
-        AuthorRepository $authorRepository
+        AuthorRepository $authorRepository,
+        ValidatorInterface $validator
         ): JsonResponse
     {
+        //on vérifie les erreurs
+        $errors = $validator->validate($currentBook);
+        if($errors->count() > 0) {
+            return new JsonResponse($serialiser->serialize($errors, 'json'), Response::HTTP_BAD_REQUEST, [], true);
+        }
         $updatedBook = $serialiser->deserialize($request->getContent(), 
                                                 Book::class, 'json', 
                                                 [AbstractNormalizer::OBJECT_TO_POPULATE => $currentBook]

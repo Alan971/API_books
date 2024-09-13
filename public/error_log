@@ -1382,3 +1382,501 @@
 [13-Sep-2024 05:00:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
 [13-Sep-2024 05:00:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
 [13-Sep-2024 05:00:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[13-Sep-2024 06:22:50 Australia/Brisbane] [info] Matched route "detailauthor".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:22:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [info] Matched route "author".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:05 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [info] Matched route "detailauthor".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [info] Matched route "detailauthor".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:28 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [info] Matched route "detailauthor".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:23:52 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:24:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:24:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:26:45 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:26:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:27:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:27:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:18 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:28:41 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:29:07 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:29:14 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:34 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 06:30:44 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 22:25:50 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 22:28:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [info] Matched route "detailbook".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 22:28:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [info] Matched route "createbook".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container8N6Y12j\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[13-Sep-2024 22:45:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/books/config/routes/framework.yaml
+[14-Sep-2024 00:23:49 Australia/Brisbane] [info] Matched route "createbook".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[14-Sep-2024 00:23:49 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[14-Sep-2024 00:26:35 Australia/Brisbane] [info] Matched route "createbook".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container1q2P213\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[14-Sep-2024 00:26:35 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [info] Matched route "createbook".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Container1q2P213\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[14-Sep-2024 00:29:39 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
