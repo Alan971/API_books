@@ -8020,3 +8020,411 @@
 [18-Sep-2024 02:21:11 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
 [18-Sep-2024 02:21:11 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
 [18-Sep-2024 02:21:11 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] Matched route "books".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] Matched route "books".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:31 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:42 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "App\EventSubscriber\ExceptionSubscriber::onKernelException".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Listener "App\EventSubscriber\ExceptionSubscriber::onKernelException" stopped propagation of the event "kernel.exception".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:25:58 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/books/config/routes/framework.yaml
+[18-Sep-2024 02:26:20 Australia/Brisbane] [info] User Deprecated: Since symfony/routing 6.4: Passing an instance of "Doctrine\Common\Annotations\Reader" as first and the environment as second argument to "Symfony\Component\Routing\Loader\AttributeClassLoader::__construct" is deprecated. Pass the environment as first argument instead.
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:26:20 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:18 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:36:18 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:36:18 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:36:19 Australia/Brisbane] [info] User Deprecated: Since symfony/routing 6.4: Passing an instance of "Doctrine\Common\Annotations\Reader" as first and the environment as second argument to "Symfony\Component\Routing\Loader\AttributeClassLoader::__construct" is deprecated. Pass the environment as first argument instead.
+[18-Sep-2024 02:36:19 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:36:19 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:19 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] User Deprecated: Since symfony/routing 6.4: Passing an instance of "Doctrine\Common\Annotations\Reader" as first and the environment as second argument to "Symfony\Component\Routing\Loader\AttributeClassLoader::__construct" is deprecated. Pass the environment as first argument instead.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:33 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/books/config/routes/framework.yaml
+[18-Sep-2024 02:36:53 Australia/Brisbane] [info] User Deprecated: Since symfony/routing 6.4: Passing an instance of "Doctrine\Common\Annotations\Reader" as first and the environment as second argument to "Symfony\Component\Routing\Loader\AttributeClassLoader::__construct" is deprecated. Pass the environment as first argument instead.
+[18-Sep-2024 02:36:53 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:36:53 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:36:53 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] Matched route "detailBook".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Checking for authenticator support.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Checking support on authenticator.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserProviderListener::checkPassport".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CsrfProtectionListener::checkPassport".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::preCheckCredentials".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\CheckPassportEvent" to listener "Symfony\Component\Security\Http\EventListener\CheckCredentialsListener::checkPassport".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "security.authentication.success" to listener "Symfony\Component\Security\Http\EventListener\UserCheckerListener::postCheckCredentials".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] Authenticator successful!
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "Symfony\Component\Security\Http\Event\LoginSuccessEvent" to listener "Symfony\Component\Security\Http\EventListener\PasswordMigratingListener::onLoginSuccess".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Authenticator set no success response: request continues.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cached_reader" service is deprecated without replacement.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.reader" service is deprecated without replacement.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [info] User Deprecated: Since symfony/framework-bundle 6.4: The "annotations.cache_adapter" service is deprecated without replacement.
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerD6yOdM5\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener::onKernelControllerArguments".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "debug.security.authorization.vote" to listener "Symfony\Bundle\SecurityBundle\EventListener\VoteListener::onVoterVote".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[18-Sep-2024 02:38:56 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".

@@ -19,6 +19,7 @@ use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Contracts\Cache\ItemInterface;
 use Symfony\Contracts\Cache\TagAwareCacheInterface;
+use App\Service\VersioningService;
 
 class BookController extends AbstractController
 {   
@@ -57,8 +58,9 @@ class BookController extends AbstractController
      * @return JsonResponse
      */
     #[Route('/api/books/{id}', name: 'detailBook', methods: ['GET'])]
-    public function getDetailBook(Book $book, SerializerInterface $serializer): JsonResponse {
+    public function getDetailBook(Book $book, SerializerInterface $serializer, VersioningService $version): JsonResponse {
         $context = SerializationContext::create()->setGroups(["getBooks"]);
+        $context->setVersion($version->getVersion());
         $jsonBook = $serializer->serialize($book, 'json', $context);
         return new JsonResponse($jsonBook, Response::HTTP_OK, [], true);
     }
